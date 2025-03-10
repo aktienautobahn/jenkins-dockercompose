@@ -4,7 +4,7 @@ services:
   jenkins-controller:
     environment:
       JENKINS_OPTS: --httpPort=8080
-    image: jenkins/jenkins:2.474-alpine-jdk21
+    image: jenkins/jenkins:2.500-alpine-jdk21
     networks:
       default: null
     ports:
